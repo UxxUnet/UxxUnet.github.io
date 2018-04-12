@@ -30,8 +30,8 @@ disqus:
 
 # google analytics config
 ga:
-  id: 
-  url: 
+  id: UA-117413443-1
+  url: uxxunet.github.io
 
 # Build settings
 permalink: /:year/:month/:day/:title.html

@@ -5,7 +5,7 @@ layout: post
 
 ## About me
 
-Around the beginning of 2018, I decide to devote myself into bioinformation & biostatistics after quiting from a biochemistry Ph.D program. As a newbie into bioinformation & biostatistics, I open a blog to record my growth.
+Around the beginning of 2018, I decided to devote myself into bioinformation & biostatistics after quiting from a biochemistry Ph.D program. As a newbie into bioinformation & biostatistics, I open a blog to record my growth.
 
 ## About the blog
 

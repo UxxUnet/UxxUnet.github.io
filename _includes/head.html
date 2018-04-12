@@ -13,6 +13,19 @@
   <link rel="shortcut icon" href="{{ site.favicon }}" />
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+  <!--baidu static-->
+  <script>
+	var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?557bca73046d13fa59b93171ab888515";
+			var s = document.getElementsByTagName("script")[0]; 
+				s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+  
   {% seo %}
   {% feed_meta %}
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hello world!
-category: whatever
-keywords: whatever
+category: jekyll
+keywords: Jekyll, Github
 ---
-
-# Hello world!
