@@ -6,4 +6,4 @@ keywords: Blog, Github
 ---
 
 
-Building the blog 
+Build the blog 
