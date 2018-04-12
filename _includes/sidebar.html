@@ -5,13 +5,15 @@
     </a>
 
     <div id="sidebar-social">
-      <a href="{{ site.rss_url | prepend: site.baseurl }}" class="sidebar-social-icon feed"></a>
-      <a href="mailto:{{ site.email }}" class="sidebar-social-icon email"></a>
+
       {% include social.html %}
+	<p></p>
+	<a href="{{ site.rss_url | prepend: site.baseurl }}" class="sidebar-social-icon feed"></a>
+	<a href="mailto:{{ site.email }}" class="sidebar-social-icon email"></a>
     </div>
 
     <ul id="sidebar-tags">
-      <li class="sidebar-tag active" data-filter="recent">最新文章</li>
+      <li class="sidebar-tag active" data-filter="recent">New blog</li>
       {% if site.filter == 'category' %}
         {% for category in site.categories %}
           <li class="sidebar-tag" data-filter="{{ category | first }}">{{ category | first }}</li>
