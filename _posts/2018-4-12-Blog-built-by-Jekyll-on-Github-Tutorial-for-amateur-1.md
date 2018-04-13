@@ -21,22 +21,27 @@ MarkdownPad 2
 
 ## Tutorials
 
-1. Sign up on [Github.com](https://github.com/)
+- Sign up on [Github.com](https://github.com/)
+
 
 ![1-8](http://p720v2ufu.bkt.clouddn.com/github/blog/1-8.png)
 
-2. Find a blog templates. 
+
+- Find a blog templates. 
+
 There are several good collections with tons of excellent resources. Here recommands [Jekyll.Wiki](https://github.com/jekyll/jekyll/wiki/Sites) . 
 
 
-3. **Fork** it or download it. 
-Find the github repository of your favored template and fork it or download it. Mine is downloaded from [Suyan](https://github.com/suyan/). You can fork [mine](https://github.com/UxxUnet/UxxUnet.github.io) if you like it,
+- **Fork** it or download it. 
+
+Find the github repository of your favored template and fork it or download it. Mine was downloaded from [Suyan](https://github.com/suyan/). You can fork [mine](https://github.com/UxxUnet/UxxUnet.github.io) if you like it,
 
 
 ![1-9](http://p720v2ufu.bkt.clouddn.com/github/blog/1-9.png)
 
 
-4. Open **Settings** and change the name.
+- Open **Settings** and change the name.
+
 Just enter `yourusername.github.io` in the repository name.
 
 
@@ -44,7 +49,8 @@ Just enter `yourusername.github.io` in the repository name.
 
 
 
-5. Change the **Source** in the settings.
+- Change the **Source** in the settings.
+
 Pull down and you'll find **Github Pages**. Choose master branch in **Source**. Click **save**.
 
 
@@ -63,7 +69,7 @@ Of cause, it still looks the same with mine but just a little more settings it w
 
 
 
-6. Open the _config.yml file in your browser.
+- Open the _config.yml file in your browser.
 
 Open your repository in your github page and find the _config.yml file. Open it.
 
@@ -72,7 +78,7 @@ Open your repository in your github page and find the _config.yml file. Open it.
 
 
 
-7. Change the profile accordingly.
+- Change the profile accordingly.
 
 Items you need to change include: title, email, description, url(your blog address), author, social account(if you have one and keep it empty if you don't), disqus(empty it if you don't have one), ga(empty it if you don't have one)
 
@@ -86,12 +92,12 @@ Now, the blog is yours,,, except the content. You can change the content of READ
 Here comes the last step: write your own blog!
 
 
-8. Download **GitHub DeskTop** and clone your repository into computer.
+- Download **GitHub DeskTop** and clone your repository into computer.
 
 Find the files named yourusername.github.io and the blogs are saved in the file _posts. Delete all the files in it and start to create your own.
 
 
-9. Download **MarkdownPad 2** and start to blog.
+- Download **MarkdownPad 2** and start to blog.
 
 Markdown is the blog style used in this blog. Mardown edit softwares are listed:
 Window: MarkdownPad, MarkPad
@@ -104,8 +110,9 @@ How about "Hello World!"
 ![1-7](http://p720v2ufu.bkt.clouddn.com/github/blog/1-7.png)
 
 
-
 About the syntax of markdown, here recommamd [the original one](https://daringfireball.net/projects/markdown/syntax), and [Chinese version](http://wowubuntu.com/markdown/#list)
+
+
 
 Well, you have finished half work of building your own blog. Next tutorial is going to talk about the Jekyll part and how to operate your blog.
 
