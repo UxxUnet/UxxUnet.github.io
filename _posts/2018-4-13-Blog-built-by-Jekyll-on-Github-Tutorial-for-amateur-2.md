@@ -105,7 +105,7 @@ Open your **command prompt**.It comes out a version number, which means OK.
 Finally, install Jekyll, if you can.
 
     
-    gem installkeyll
+    gem install jekyll
     
 
 Just don't give it up easily when encountering any adversities. Problemshooting is an crucial ability you need everywhere. Again, you can turn to google, or me.
