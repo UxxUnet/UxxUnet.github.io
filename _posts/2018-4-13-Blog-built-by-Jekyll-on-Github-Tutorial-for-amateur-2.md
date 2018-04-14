@@ -29,11 +29,11 @@ Windows 7
 
 A quick example of generating a blog in the official documentation:
 
-    ~ $ gem install jekyll
-    ~ $ jekyll new myblog
-    ~ $ cd myblog
-    ~/myblog $ jekyll serve
-    # => Now browse to http://localhost:4000
+	~ $ gem install jekyll
+	~ $ jekyll new myblog
+	~ $ cd myblog
+	~/myblog $ jekyll serve
+	# => Now browse to http://localhost:4000
 
 That looks easy, however, on the circumstances that you have configured Jekyll succussfully. 
 
@@ -61,8 +61,8 @@ After installing DevKit, you may need to set up the Devkit for Ruby.
 - Enter commands:
 
 
-    cd C:\DevKit
-    ruby dk.rb init
+    	cd C:\DevKit
+    	ruby dk.rb init
 
 
 - Edit **config.yml** in the **Devkit** folder and add `- C:\Ruby25-x64` (I used [Notepad++](https://notepad-plus-plus.org/), which you can install one for html editing)
@@ -70,7 +70,7 @@ After installing DevKit, you may need to set up the Devkit for Ruby.
 - Then enter commands:
 
 
-    ruby dk.rb install
+		ruby dk.rb install
 
 
 "C:\DevKit" is where you install DevKit.
@@ -82,19 +82,18 @@ After installing DevKit, you may need to set up the Devkit for Ruby.
 - Download and install [Rubygems](rubygems.org/pages/download) in offcial way.
 
 
-- Check ruby installation. 
-
-Open your **command prompt**.It comes out a version number, which means OK.
+- Check ruby installation. Open your **command prompt**.It comes out a version number, which means OK.
 
 
-    gem -v
+		gem -v
+
 
 
 - Install rubygems.
 
 
-    gem install rubygems-update
-    update_rubygems
+		gem install rubygems-update
+		update_rubygems
 
 
  Any erorr would appear between commands then Google is recommanded. You can ask in the comment bar and I would answer if I could.
@@ -102,11 +101,11 @@ Open your **command prompt**.It comes out a version number, which means OK.
 
 ## Jekyll installation......?
 
-Finally, install Jekyll, if you can.
+- Finally, install Jekyll, if you can.
 
-    
-    gem install jekyll
-    
+
+		gem install jekyll
+
 
 Just don't give it up easily when encountering any adversities. Problemshooting is an crucial ability you need everywhere. Again, you can turn to google, or me.
 
@@ -116,69 +115,75 @@ Just don't give it up easily when encountering any adversities. Problemshooting 
 - Need to install nokogiri for Windows
 
 
-     gem install nokogiri --^
-       --with-xml2-include=C:\Chocolatey\lib\libxml2.2.7.8.7\build\native\include^
-       --with-xml2-lib=C:\Chocolatey\lib\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl^
-       --with-iconv-include=C:\Chocolatey\lib\libiconv.1.14.0.11\build\native\include^
-       --with-iconv-lib=C:\Chocolatey\lib\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl^
-       --with-xslt-include=C:\Chocolatey\lib\libxslt.1.1.28.0\build\native\include^
-       --with-xslt-lib=C:\Chocolatey\lib\libxslt.redist.1.1.28.0\build\native\bin\v110\x64\Release\dynamic
+		gem install nokogiri --^
+		--with-xml2-include=C:\Chocolatey\lib\libxml2.2.7.8.7\build\native\include^
+		--with-xml2-lib=C:\Chocolatey\lib\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl^
+		--with-iconv-include=C:\Chocolatey\lib\libiconv.1.14.0.11\build\native\include^
+		--with-iconv-lib=C:\Chocolatey\lib\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl^
+		--with-xslt-include=C:\Chocolatey\lib\libxslt.1.1.28.0\build\native\include^
+		--with-xslt-lib=C:\Chocolatey\lib\libxslt.redist.1.1.28.0\build\native\bin\v110\x64\Release\dynamic 
+
+
 
 
 - Install bundler
 
 
-    gem install bundler
+		gem install bundler
 
 
 - Create a file named "Gemfile" without any suffix(I use Notepad or Notepad++). Enter infomation blow and safe.
 
 
-    source 'http://rubygems.org'
-    gem 'github-pages', group: :jekyll_plugins
-    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+		source 'http://rubygems.org'
+		gem 'github-pages', group: :jekyll_plugins
+		gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 
 - Install wdm and listen
 
 
-    gem install wdn
-    gem install listen
+		gem install wdn
+		gem install listen
+
 
 - Install ffi by force if necessary
 
 
-    gem install ffi -f
+		gem install ffi -f
+
 
 
 - Change your work set to where your github repository clone is (See the end of [last tutorial](https://uxxunet.github.io/2018/04/12/Blog-built-by-Jekyll-on-Github-Tutorial-for-amateur-1.html))and install github-page
 
 
-    d:
-    cd d:\Github\yourusername.github.io
-    bundle install
+		d:
+		cd d:\Github\yourusername.github.io
+		bundle install
 
 
 - Update it if necessary
 
 
-    bundle update
+		bundle update
 
 
 - Final command to generate your static blog page
 
-    
-    bundle exec jekyll serve
+ 
+		bundle exec jekyll serve
 
 
-In fact, there are many forms of this commands:
+- In fact, there are many forms of this commands:
 
-    jekyll s
-    jekyll serve
-    jekyll server
-    bundle exec jekyll s
-    bundle exec jekyll serve
-    bundle exec jekyll server
+
+		jekyll s
+		jekyll serve
+		jekyll server
+		bundle exec jekyll s
+		bundle exec jekyll serve
+		bundle exec jekyll server
+
 
 They're not exactly the same.
 
@@ -194,17 +199,17 @@ Now, you can enter `127.0.0.1:4000` into your browser address bar to check your 
 - Change your work set to where your github repository clone is and push it to the github.
 
 
-    $ cd d:\
-    $ cd d:\Github\yourusername.github.io
-    $ git add .   # or git a
-    $ git commit -m "updated site"
-    $ git push -u origin master
+		$ cd d:\
+		$ cd d:\Github\yourusername.github.io
+		$ git add .   # or git a
+		$ git commit -m "updated site"
+		$ git push -u origin master
 
 
-Also, you can operate the web locally to check the comtemporary web page(the same with **command prompt**):
+- Also, you can operate the web locally to check the comtemporary web page(the same with **command prompt**):
 
 
-    $ bundle exec jekyll serve
+		$ bundle exec jekyll serve
 
 
 Enter `127.0.0.1:4000` into your browser address bar.
