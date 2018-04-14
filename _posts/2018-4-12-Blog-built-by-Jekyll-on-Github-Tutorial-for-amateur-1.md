@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Blog built by Jekyll on Github (tutorial for amateurs) 1
-category: Github
-keywords: Github
+category: Jekyll
+keywords: Jekyll
 ---
 
 
@@ -89,29 +89,9 @@ Items you need to change include: title, email, description, url(your blog addre
 
 Now, the blog is yours,,, except the content. You can change the content of README.md and index.md in the browser as well. 
 
-Here comes the last step: write your own blog!
+- Download and install [GitHub DeskTop](https://desktop.github.com/)and clone your repository into computer.
 
-
-- Download **GitHub DeskTop** and clone your repository into computer.
-
-Find the files named yourusername.github.io and the blogs are saved in the file _posts. Delete all the files in it and start to create your own.
-
-
-- Download **MarkdownPad 2** and start to blog.
-
-Markdown is the blog style used in this blog. Mardown edit softwares are listed:
-Window: MarkdownPad, MarkPad
-ISO: Mou, Drafts, Day One, iA Writer,Tublme 
-Oline: Draftin, Markable.in, Dillinger.io, MaDe(Chrome plugin)
-
-How about "Hello World!"
-
-
-![1-7](http://p720v2ufu.bkt.clouddn.com/github/blog/1-7.png)
-
-
-About the syntax of markdown, here recommamd [the original one](https://daringfireball.net/projects/markdown/syntax), and [Chinese version](http://wowubuntu.com/markdown/#list)
-
+Find the files named yourusername.github.io and the blogs are saved in the folder _posts. Delete all the files in it and start to create your own.
 
 
 Well, you have finished half work of building your own blog. Next tutorial is going to talk about the Jekyll part and how to operate your blog.
