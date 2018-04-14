@@ -51,13 +51,11 @@ When it comes to details, you'll find the list is way more longer and their vers
 
 ## Ruby installation
 
-- Download and install Ruby, DevKit and MSYS2. I install [the latest version(2.5.1-1 x64) of Ruby](https://rubyinstaller.org/downloads/), which may have problems but anyway it finally works.
-
-Additional kit it needs: [DevKit](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) and [MSMY2](http://www.msys2.org/)
+- Download and install [Ruby](https://rubyinstaller.org/downloads/), [DevKit](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) and [MSMY2](http://www.msys2.org/). I install [the latest version(2.5.1-1 x64) of Ruby](https://rubyinstaller.org/downloads/), which may have problems but anyway it finally works.
 
 Just, install as recommands and don't ask me why...
 
-After install DevKit, you may need to set up the Devkit for Ruby.
+After installing DevKit, you may need to set up the Devkit for Ruby.
 
 - Open your **command prompt** (Win+R, enter CMD, enter)
 - Enter commands:
