@@ -1,0 +1,28 @@
+﻿.bac {
+    background: transparent url('http://p720v2ufu.bkt.clouddn.com/back.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+.wrap{
+
+    text-align: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: table;
+    background:rgb(0,0,0,.4);
+}
+.bac-head {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 100;
+    font-size: 5em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 10px #E8E8E8;
+    }
