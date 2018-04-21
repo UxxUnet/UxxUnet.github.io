@@ -25,6 +25,11 @@ keywords: Resource
 
 [solidot](https://www.solidot.org/)
 
+[中文圈导航](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E5%9C%88%E5%AF%BC%E8%88%AA)
+
+[楼外楼](https://www.letscorp.net/)
+
+[月光博客](http://www.williamlong.info/)
 # Tech
 [Scientific American](https://www.scientificamerican.com/)
 
@@ -36,3 +41,7 @@ keywords: Resource
 
 # Fashion
 [88rising](https://www.88rising.com/)
+
+
+# Others
+[Alphago](https://alphagoteach.deepmind.com/)
