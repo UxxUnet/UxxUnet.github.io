@@ -252,6 +252,7 @@ Create a base.html under your `templates` folder by Notepad++.
 
 Create a home.html under your templates folder by Notepad++.
 
+	{% highlight jinja %}
 	<!--home.html-->
 	{% extends "base.html" %}
 	{% load custom_markdown %}
@@ -276,9 +277,11 @@ Create a home.html under your templates folder by Notepad++.
     	{% endfor %}
 	</div><!-- /.blog-post -->
 	{% endblock %}
+	{% endhighlight %}
 
 Create a post.html under your templates folder by Notepad++.
 
+	{% highlight jinja %}
 	#post.html
 	{% extends "base.html" %}
 
@@ -301,7 +304,7 @@ Create a post.html under your templates folder by Notepad++.
 	        </section>
 	</div><!-- /.blog-post -->
 	{% endblock %}
-
+	{% endhighlight %}
 
 You can run `python manage.py runserver` and enter `127.0.0.1:8000` in your browser address bar to check the web you've built.
 
@@ -310,9 +313,9 @@ You can run `python manage.py runserver` and enter `127.0.0.1:8000` in your brow
 Open a new github repository.
 
     git add .
-    #commit操作
+    #commit
     git commit -m "modication"
-    #上传github
+    #upload to github
     git push -u blog master
 
 
