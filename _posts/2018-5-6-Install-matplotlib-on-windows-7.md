@@ -29,9 +29,9 @@ python 3
 
 
 
-As long as you have installed the pip well, you can install the matplotlib and all the packages it needs theoritically. However, the connection is unstable in China. Unfortunately, with my unyielding trying, I get it done. Honestly, my way is pip again and again.
+As long as you have installed the pip well, you can install the matplotlib and all the packages it needs theoritically. However, the connection is unstable in China. Unfortunately, with my unyielding trying, I get it done. Honestly, my way was simply piping again and again.
 
-First,install to find my pip need to be upgraded. I've tried over ten times. You really need to find a good day to operate this.
+First, I installed and then found my pip need to be upgraded. I've tried over ten times. You really need to find a good day to operate this.
 
 	python -m pip install --upgrade pip
 
