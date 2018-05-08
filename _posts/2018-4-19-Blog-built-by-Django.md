@@ -179,7 +179,7 @@ Add templates folder information into settings.py.
 
 If you want a web appearence like mine, you can follow the steps blow. Or you can find other html to replace.
 
-Create a base.html under your `templates` folder by Notepad++.
+Create a base.html under your `templates` folder by Notepad++. Change all "$" to "%".
 
 
 
@@ -231,12 +231,12 @@ Create a base.html under your `templates` folder by Notepad++.
 
 	    <div class="content pure-u-1 pure-u-md-3-4">
 	        <div>
-	            {% block content %}
-	            {% endblock %}
+	            {$ block content $}
+	            {$ endblock $}
     	        <div class="footer">
     	            <div class="pure-menu pure-menu-horizontal pure-menu-open">
     	                <ul>
-    	                    <li><a href="{% url "aboutme" %}">About Me</a></li>
+
     	                    <li><a href="http://weibo.com/galeli">Weibo</a></li>
     	                    <li><a href="https://github.com/UxxUnet">GitHub</a></li>
 
@@ -250,21 +250,20 @@ Create a base.html under your `templates` folder by Notepad++.
 	</body>
 	</html>
 
-Create a home.html under your templates folder by Notepad++.
+Create a home.html under your templates folder by Notepad++. Change all "$" to "%".
 
-	{% highlight jinja %}
 	<!--home.html-->
-	{% extends "base.html" %}
-	{% load custom_markdown %}
-	{% block content %}
+	{$ extends "base.html" $}
+	{$ load custom_markdown $}
+	{$ block content $}
 	<div class="posts">
-	    {% for post in post_list %}
+	    {$ for post in post_list $}
 	        <section class="post">
 	            <header class="post-header">
-	                <h2 class="post-title"><a href="{% url "detail" id=post.id %}">{{ post.title }}</a></h2>
+	                <h2 class="post-title"><a href="{$ url "detail" id=post.id $}">{{ post.title }}</a></h2>
 
 	                    <p class="post-meta">
-	                        Time:  <a class="post-author" href="#">{{ post.date_time}}</a> <a class="post-category post-category-js" href="{% url 'search_tag' tag=post.category %}">{{ post.category }}</a>
+	                        Time:  <a class="post-author" href="#">{{ post.date_time}}</a> <a class="post-category post-category-js" href="{$ url 'search_tag' tag=post.category $}">{{ post.category }}</a>
                     	</p>
             	</header>
 
@@ -274,18 +273,17 @@ Create a home.html under your templates folder by Notepad++.
                 	    </p>
                 	</div>
         	</section>
-    	{% endfor %}
+    	{$ endfor $}
 	</div><!-- /.blog-post -->
-	{% endblock %}
-	{% endhighlight %}
+	{$ endblock $}
 
-Create a post.html under your templates folder by Notepad++.
+Create a post.html under your templates folder by Notepad++. Change all "$" to "%".
 
-	{% highlight jinja %}
+
 	#post.html
-	{% extends "base.html" %}
+	{$ extends "base.html" $}
 
-	{% block content %}
+	{$ block content $}
 	<div class="posts">
 	        <section class="post">
 	            <header class="post-header">
@@ -303,8 +301,8 @@ Create a post.html under your templates folder by Notepad++.
                	 </div>
 	        </section>
 	</div><!-- /.blog-post -->
-	{% endblock %}
-	{% endhighlight %}
+	{$ endblock $}
+
 
 You can run `python manage.py runserver` and enter `127.0.0.1:8000` in your browser address bar to check the web you've built.
 
