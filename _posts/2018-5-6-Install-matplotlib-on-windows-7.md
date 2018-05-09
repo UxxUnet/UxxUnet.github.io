@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Install matplotlib on windows 7
-category: python
-keywords: python
+category: Python
+keywords: Python
 ---
 
 ## Environment
