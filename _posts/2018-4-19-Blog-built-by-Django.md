@@ -312,7 +312,7 @@ Open a new github repository.
 
     git add .
     #commit
-    git commit -m "modication"
+    git commit -m "modification"
     #upload to github
     git push -u blog master
 
