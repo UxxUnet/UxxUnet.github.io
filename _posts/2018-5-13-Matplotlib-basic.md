@@ -8,7 +8,7 @@ keywords: Matpoltlib
 After install matplotlib, I learnt some basic uses to visualize data. I found that it is like matlab I learn indead. For basic,you can just adjust a lottle. For fancy one, you have to set numerous more specific settings. Here, I leave a collection of basic anlysis code, which was learnt from [morvanzhou](https://morvanzhou.github.io/).
 
 
-##Line
+## Line
 
     import matplotlib.pyplot as plt
     import numpy as np
@@ -21,7 +21,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.show()
     
     
-##Two line with annotation
+## Two line with annotation
 
 
 
@@ -73,7 +73,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.show()
     
 
-##XYZ axis
+## XYZ axis
 
     import numpy as np
     import matplotlib.pyplot as plt
@@ -99,7 +99,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     
     
     
-##Bar
+## Bar
 
     import matplotlib.pyplot as plt
     import numpy as np
@@ -135,7 +135,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.show()
     
     
-##Contours
+## Contours
 
     import matplotlib.pyplot as plt
     import numpy as np
@@ -161,7 +161,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     
     
     
-##Heatmap with colorbar
+## Heatmap with colorbar
 
     import matplotlib.pyplot as plt
     import numpy as np
@@ -177,7 +177,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.yticks(())
     plt.show()
 
-##Scatter
+## Scatter
 
     import matplotlib.pyplot as plt
     import numpy as np
