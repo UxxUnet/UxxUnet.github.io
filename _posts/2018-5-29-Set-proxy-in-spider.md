@@ -5,6 +5,7 @@ category: python
 keywords: Whatever
 ---
 # urllib
+
 When you use urllib, build a opener.
 
     import urllib.request
@@ -17,6 +18,7 @@ When you use urllib, build a opener.
 
 
 # requets
+
 When you use requets, use index "proxies".
 
     import requests
@@ -26,4 +28,5 @@ When you use requets, use index "proxies".
 
 # Reference
 
-(Reference1)[http://gohom.win/2016/01/21/proxy-py/]
+[Reference1](http://gohom.win/2016/01/21/proxy-py/)
+

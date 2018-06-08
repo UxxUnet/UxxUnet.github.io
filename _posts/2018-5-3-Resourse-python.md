@@ -20,3 +20,12 @@ keywords: Resource
 [孔淼](https://www.csdn.net/article/2015-11-13/2826205)
 
 [零基础如何学爬虫技术？](https://www.zhihu.com/question/47883186)
+
+
+## Package
+
+[itchat1](https://itchat.readthedocs.io/zh/latest/tutorial/tutorial0/)
+
+[itchat2](http://python.jobbole.com/86532/)
+
+[NetEaseMusicApi](https://github.com/littlecodersh/NetEaseMusicApi)
