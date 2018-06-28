@@ -26,9 +26,12 @@ Need to install following packages:
     pyecharts
     collections
     jieba
-    PIL(Pillows)
+    PIL(Pillow)
     os
     math
+    echarts-china-cities-pypkg    0.0.8
+	echarts-china-provinces-pypkg 0.0.2
+	echarts-countries-pypkg 
 
 ## Start
 

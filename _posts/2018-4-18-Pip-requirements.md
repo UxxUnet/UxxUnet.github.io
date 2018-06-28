@@ -6,8 +6,9 @@ keywords: Python
 ---
 
 # Write requirements
-pip freeze > requirements.txt
+
+	pip freeze > requirements.txt
 
 # Installation
 
-pip install -r requirements.txt
+	pip install -r requirements.txt

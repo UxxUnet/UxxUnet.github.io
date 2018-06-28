@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Set proxy in sipder
-category: python
-keywords: Whatever
+category: Python
+keywords: Python
 ---
 # urllib
 
