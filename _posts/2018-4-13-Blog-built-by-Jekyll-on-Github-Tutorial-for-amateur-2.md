@@ -61,8 +61,14 @@ After installing DevKit, you may need to set up the Devkit for Ruby.
 - Enter commands:
 
 
-    	cd C:\DevKit
-    	ruby dk.rb init
+		cd C:\DevKit
+		ruby dk.rb init
+		## When I installed in win10, it appears information:
+		## [INFO] found RubyInstaller v2.5.1 at C:/Ruby25-x64
+		## 
+		## Initialization complete! Please review and modify the auto-generated
+		## 'config.yml' file to ensure it contains the root directories to all
+		## of the installed Rubies you want enhanced by the DevKit.
 
 
 - Edit **config.yml** in the **Devkit** folder and add `- C:\Ruby25-x64` (I used [Notepad++](https://notepad-plus-plus.org/), which you can install one for html editing)
@@ -71,6 +77,9 @@ After installing DevKit, you may need to set up the Devkit for Ruby.
 
 
 		ruby dk.rb install
+		## When I installed in win10, it appears information:
+		## [INFO] Updating existing gem override for 'C:/Ruby25-x64'
+		## [INFO] Installing 'C:/Ruby25-x64/lib/ruby/site_ruby/devkit.rb'
 
 
 "C:\DevKit" is where you install DevKit.
@@ -79,7 +88,7 @@ After installing DevKit, you may need to set up the Devkit for Ruby.
 
 ## Rubygems installation
 
-- Download and install [Rubygems](rubygems.org/pages/download) in offcial way.
+- Download and install [Rubygems](https://rubygems.org/pages/download) in offcial way.
 
 
 - Check ruby installation. Open your **command prompt**.It comes out a version number, which means OK.
@@ -115,13 +124,7 @@ Just don't give it up easily when encountering any adversities. Problemshooting 
 - Need to install nokogiri for Windows
 
 
-		gem install nokogiri --^
-		--with-xml2-include=C:\Chocolatey\lib\libxml2.2.7.8.7\build\native\include^
-		--with-xml2-lib=C:\Chocolatey\lib\libxml2.redist.2.7.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl^
-		--with-iconv-include=C:\Chocolatey\lib\libiconv.1.14.0.11\build\native\include^
-		--with-iconv-lib=C:\Chocolatey\lib\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl^
-		--with-xslt-include=C:\Chocolatey\lib\libxslt.1.1.28.0\build\native\include^
-		--with-xslt-lib=C:\Chocolatey\lib\libxslt.redist.1.1.28.0\build\native\bin\v110\x64\Release\dynamic 
+		gem install nokogiri
 
 
 
@@ -132,18 +135,10 @@ Just don't give it up easily when encountering any adversities. Problemshooting 
 		gem install bundler
 
 
-- Create a file named "Gemfile" without any suffix(I use Notepad or Notepad++). Enter infomation blow and safe.
-
-
-		source 'http://rubygems.org'
-		gem 'github-pages', group: :jekyll_plugins
-		gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-
-
 - Install wdm and listen
 
 
-		gem install wdn
+		gem install wdm
 		gem install listen
 
 
@@ -159,6 +154,17 @@ Just don't give it up easily when encountering any adversities. Problemshooting 
 
 		d:
 		cd d:\Github\yourusername.github.io
+		
+
+- Create a file named "Gemfile" without any suffix(I use Notepad or Notepad++). Enter infomation blow and safe.
+
+
+		source 'http://rubygems.org'
+		gem 'github-pages', group: :jekyll_plugins
+		gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+- Install bundle
+
 		bundle install
 
 
