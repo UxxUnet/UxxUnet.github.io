@@ -209,7 +209,7 @@ Now, you can enter `127.0.0.1:4000` into your browser address bar to check your 
 		$ cd d:\Github\yourusername.github.io
 		$ git add .   # or git a
 		$ git commit -m "updated site"
-		$ git push -u origin master
+		$ git push origin master
 
 
 - Also, you can operate the web locally to check the comtemporary web page(the same with **command prompt**):
