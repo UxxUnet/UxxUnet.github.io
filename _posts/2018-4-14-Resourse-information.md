@@ -18,7 +18,7 @@ keywords: Resource
 | [slashdot](https://slashdot.org/) | [自由亚洲电台](https://www.rfa.org/mandarin/) | [阳光时务周刊](https://plus.google.com/105389029463525925239/posts) |
 | [solidot](https://www.solidot.org/) | [Globalvoices](https://zhs.globalvoices.org/) | [人权中国](https://www.hrw.org/zh-hans) |
 | [programthink/sites](https://github.com/programthink/sites) | [博讯](http://www.boxun.com/) | [博谈网](http://www.botanwang.com/) |
-| [中文圈导航](https://github.com/XX-net/XX-Net/wiki/%E5%8D%8E%E8%AF%AD%E5%9C%88%E5%AF%BC%E8%88%AA) | [万维读者](http://www.creaders.net/?language=gb2312) |
+| [中文圈导航](https://github.com/XX-net/XX-Net/wiki/%E5%8D%8E%E8%AF%AD%E5%9C%88%E5%AF%BC%E8%88%AA) | [万维读者](http://www.creaders.net/?language=gb2312) | [中国数字时代](https://chinadigitaltimes.net/chinese/) |
 | [楼外楼](https://www.letscorp.net/)|[福布斯](http://www.forbeschina.com/) | [华尔街日报](https://cn.wsj.com/zh-hans) | 
 | [月光博客](http://www.williamlong.info/) | [财富](http://www.fortunechina.com/) | [金融时报](http://www.ftchinese.com/) |
 
