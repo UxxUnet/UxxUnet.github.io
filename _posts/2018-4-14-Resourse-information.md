@@ -15,7 +15,7 @@ keywords: Resource
 | [端媒体](https://theinitium.com/) | [法国国际广播电台](http://cn.rfi.fr/) | [中央通讯社](http://www.cna.com.tw/) |
 | [煎蛋](http://jandan.net/) | [德国之声](http://feeds.feedburner.com/dw-world) | [民主中国](http://minzhuzhongguo.org/) |
 | [爱范儿](http://www.ifanr.com/) | [德国之声](https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058) | [中国报道周刊](http://www.china-week.com/) |
-| [slashdot](https://slashdot.org/) | [自由亚洲电台](https://www.rfa.org/mandarin/) | [阳光时务周刊](https://plus.google.com/105389029463525925239/posts) |
+| [slashdot](https://slashdot.org/) | [自由亚洲电台](https://www.rfa.org/mandarin/) | [大纪元](http://www.epochtimes.com/) |
 | [solidot](https://www.solidot.org/) | [Globalvoices](https://zhs.globalvoices.org/) | [人权中国](https://www.hrw.org/zh-hans) |
 | [programthink/sites](https://github.com/programthink/sites) | [博讯](http://www.boxun.com/) | [博谈网](http://www.botanwang.com/) |
 | [中文圈导航](https://github.com/XX-net/XX-Net/wiki/%E5%8D%8E%E8%AF%AD%E5%9C%88%E5%AF%BC%E8%88%AA) | [万维读者](http://www.creaders.net/?language=gb2312) | [中国数字时代](https://chinadigitaltimes.net/chinese/) |

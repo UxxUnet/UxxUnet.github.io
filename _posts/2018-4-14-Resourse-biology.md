@@ -15,6 +15,8 @@ keywords: Resource
 
 [Uniprot](http://www.uniprot.org/)
 
+[BioGPS](http://biogps.org/#goto=welcome)
+
 [Panther](http://www.pantherdb.org/pathway/pathwayLinks.jsp)
 [Kinase](http://kinase.com/)
 [ATCC](https://www.atcc.org/)
