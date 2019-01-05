@@ -314,7 +314,7 @@ Open a new github repository.
     #commit
     git commit -m "modification"
     #upload to github
-    git push
+    git push origin master
 
 
 ## Problemshooting

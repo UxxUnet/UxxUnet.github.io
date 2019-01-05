@@ -18,16 +18,26 @@ keywords: Resource
 
 [生信菜鸟团](http://www.bio-info-trainee.com/)
 
+[生信宝典](https://mp.weixin.qq.com/mp/homepage?__biz=MzI5MTcwNjA4NQ==&hid=6&sn=667813e1f021e2cf155a74457b48d087&scene=18&devicetype=android-26&version=26070239&lang=zh_CN&nettype=WIFI&ascene=0)
+
 [deangao's blog](http://www.iwhgao.com/)
 
 [丁香园生物信息](http://www.dxy.cn/bbs/board/73)
 
 [基因堂](http://www.gene-seq.com/bbs/forum.php)
 
-[biostars](https://www.biostars.org/)
+[biostars](https://mp.weixin.qq.com/mp/homepage?__biz=MzI1MjU5MjMzNA==&hid=9&sn=bd09eccd4018b9331cf80c3c990139f8&scene=18&uin=&key=&devicetype=Windows+7&version=62040525&lang=zh_CN&ascene=7&winzoom=1)
 
 [Applied Bioinformatics 2014 of PSU](http://www.personal.psu.edu/iua1/courses/code-repository-2014.html)
 
 [常用生物信息在线工具1](https://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=100000067&idx=1&sn=afcb959182e824682f26185ee380cf9d&chksm=1b4841f82c3fc8eedcd29eec00cfb155ba972df146ea6011f27024d8ac770969179944dd85ef&mpshare=1&scene=23&srcid=0910J5r6kTBfNsXKSCa433uB#rd)
 
 [常用生物信息在线工具2](https://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=100000067&idx=2&sn=5bf482bf7668b18fffd467b94ae501d9&chksm=1b4841f82c3fc8ee98a974131df1b2d2f64989302cfd938ff93591b143ac9a5027359cfdbf83&mpshare=1&scene=23&srcid=0910PSpqGaaK7u0EWjicr2dx#rd)
+
+
+##Linux
+[WSL](https://zhuanlan.zhihu.com/p/42126317)
+
+[linuxjourney](https://linuxjourney.com/lesson/copy-cp-command)
+
+[Linux commands1](http://www.cnblogs.com/yjd_hycf_space/p/7730690.html)

@@ -67,6 +67,12 @@ keywords: Resource
 
 [堆糖网](https://www.duitang.com/)
 
+[图虫网](https://tuchong.com/)
+
+[摄图网](http://699pic.com/)
+
+[千库网](http://588ku.com/)
+
 [remix3d](https://www.remix3d.com/discover?section=34b78f58881242e4ab611e4ab5ffaa78)
 
 [设计达人](http://www.shejidaren.com/)

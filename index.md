@@ -5,7 +5,7 @@ layout: post
 
 ## About me
 
-As a newbie of programing, I open a blog to record my growth.
+As a newbie of pythoner, I open a blog to record my growth.
 
 ## About the blog
 
