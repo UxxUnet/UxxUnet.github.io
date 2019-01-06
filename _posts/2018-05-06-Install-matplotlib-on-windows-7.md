@@ -52,11 +52,12 @@ Then, install the packages one by one.
 
 Finally, test your matplotlib with .py blow:
 
-
-	import matplotlib.pyplot as plt
-	plt.plot([1,2,3])
-	plt.ylabel('some numbers')
-	plt.show()
+```python
+import matplotlib.pyplot as plt
+plt.plot([1,2,3])
+plt.ylabel('some numbers')
+plt.show()
+```
 
 Run the .py and you get the figure if you install the matpkotlib successfully.
 

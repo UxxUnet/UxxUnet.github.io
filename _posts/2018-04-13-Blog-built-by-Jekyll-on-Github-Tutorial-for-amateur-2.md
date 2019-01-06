@@ -29,11 +29,13 @@ Windows 7
 
 A quick example of generating a blog in the official documentation:
 
+```git
 	~ $ gem install jekyll
 	~ $ jekyll new myblog
 	~ $ cd myblog
 	~/myblog $ jekyll serve
 	# => Now browse to http://localhost:4000
+```
 
 That looks easy, however, on the circumstances that you have configured Jekyll succussfully. 
 
