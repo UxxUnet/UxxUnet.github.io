@@ -37,6 +37,7 @@ Need to install following packages:
 
 Use itchat to login wechat and import data of friends.
 
+```python
 	#coding=utf-8	
 	import itchat
 	import json
@@ -44,9 +45,9 @@ Use itchat to login wechat and import data of friends.
 	import codecs
 	
 	sex_dict = {}
-	sex_dict['0'] = "其他"
-	sex_dict['1'] = "男"
-	sex_dict['2'] = "女"
+	sex_dict['0'] = "others"
+	sex_dict['1'] = "male"
+	sex_dict['2'] = "female"
 
 	def download_images(frined_list):
 	    image_dir = "./images/"
@@ -82,9 +83,11 @@ Use itchat to login wechat and import data of friends.
 	    save_data(friends_list)
 	    download_images(friends_list)
 	    itchat.run()
+```
 
 After importing data of friends from wachat, we can analyse them and visualize them in chars, bars or map.
 
+```
 	#coding=utf-8
 
 	import json
@@ -103,7 +106,7 @@ After importing data of friends from wachat, we can analyse them and visualize t
 	
 	def get_pie(item_name,item_name_list,item_num_list):
 	    totle = item_num_list[0]+item_num_list[1]+item_num_list[2]
-	    subtitle = "共有:%d个好友"%totle
+	    subtitle = "Gender of %d friends"%totle
 	
 	    pie = Pie(item_name,page_title = item_name,title_text_size=30,title_pos='center',\
 	        subtitle = subtitle,subtitle_text_size = 25,width=800,height= 800)
@@ -115,7 +118,7 @@ After importing data of friends from wachat, we can analyse them and visualize t
 	    pie.render(out_file_name)
 	
 	def get_bar(item_name,item_name_list,item_num_list):
-	    subtitle = "好友地区分布"
+	    subtitle = "Geogaphical distribution"
 	    bar = Bar(item_name,page_title = item_name,title_text_size=30,title_pos='center',\
 	        subtitle = subtitle,subtitle_text_size = 25)
 	    
@@ -130,7 +133,7 @@ After importing data of friends from wachat, we can analyse them and visualize t
 	
 	
 	def get_map(item_name,item_name_list,item_num_list):
-	    subtitle = "好友分布地图"
+	    subtitle = "Geogaphical distribution map"
 	    _map = Map(item_name,width=1300,height= 800,title_pos='center',title_text_size=30,\
 	        subtitle = subtitle,subtitle_text_size = 25)
 	    _map.add("", item_name_list, item_num_list, maptype='china', is_visualmap=True, visual_text_color='#000')
@@ -190,7 +193,7 @@ After importing data of friends from wachat, we can analyse them and visualize t
 	        cnt[tag] += 1
 	
 	def mergeImage():
-	    print("正在合成头像")
+	    print("Combining avatars")
 	    # Set images' size
 	    photo_width = 200
 	    photo_height = 200
@@ -256,47 +259,54 @@ After importing data of friends from wachat, we can analyse them and visualize t
 	
 	    # Sex
 	    name_list,num_list = dict2list(sex_counter)
-	    get_pie('性别统计',name_list,num_list)
-	
-![](http://p720v2ufu.bkt.clouddn.com/github/blog/4-1.png)
+	    get_pie('Gender statistic',name_list,num_list)
+```
+
+![](https://llooo-1258453267.cos.ap-shanghai.myqcloud.com/blog4-1.png)
 
 Ah, the gender ratio is fair in my friends list.
-	
+
+```python	
 	    # Top 15 provinces
 	    name_list,num_list = counter2list(Province_counter.most_common(15))
-	    get_bar('地区统计',name_list,num_list)
-
-![](http://p720v2ufu.bkt.clouddn.com/github/blog/4-2.png)
+	    get_bar('Geogaphical distribution',name_list,num_list)
+```
+![](https://llooo-1258453267.cos.ap-shanghai.myqcloud.com/blog4-2.png)
 
 Apparently, my friends concentrate in Shanghai, Zhejiang, Hubei and Guangdong.
 
-
+```python
 	    # Mapping
-	    get_map('微信好友地图可视化',name_list,num_list)
+	    get_map('Geogaphical distribution map',name_list,num_list)
+```
 
+![](https://llooo-1258453267.cos.ap-shanghai.myqcloud.com/blog4-3.png)
 
-![](http://p720v2ufu.bkt.clouddn.com/github/blog/4-3.png)
-
+```python
 	    # Nicknames
 	    num_list = [5 for i in range(1,len(NickName_list)+1)]
-	    word_cloud('微信好友昵称',NickName_list,num_list,[18,18])
+	    word_cloud('Nicknames of wachat friends',NickName_list,num_list,[18,18])
+```
 
 Sorry, this result is not presented to protect my friends' privacy.
 
+```python
 	    # Signture
 	    name_list,num_list = counter2list(Signature_counter.most_common(200))
-	    word_cloud('微信好友签名关键词',name_list,num_list,[20,100])
+	    word_cloud('Signature word cloud',name_list,num_list,[20,100])
+```
 
-![](http://p720v2ufu.bkt.clouddn.com/github/blog/4-4.png)
+![](https://llooo-1258453267.cos.ap-shanghai.myqcloud.com/blog4-4.png)
 
+```python
 	    # Avatars
 	    mergeImage()
-
+```
 
 Eh, a Gaussian Blur is applied to cover for the privacy.
 
 
-![](http://p720v2ufu.bkt.clouddn.com/github/blog/4-5.png)
+![](https://llooo-1258453267.cos.ap-shanghai.myqcloud.com/blog4-5.png)
 
 
 Is it fanticy? Try it yourselves immdiately!

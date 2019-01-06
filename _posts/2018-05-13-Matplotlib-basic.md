@@ -10,6 +10,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
 
 ## Line
 
+```python
     import matplotlib.pyplot as plt
     import numpy as np
     
@@ -19,12 +20,12 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.figure()
     plt.plot(x,y)
     plt.show()
-    
+```
     
 ## Two line with annotation
 
 
-
+```python
     import matplotlib.pyplot as plt
     import numpy as np
     
@@ -71,10 +72,11 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
      fontdict={'size': 16, 'color': 'r'})			 
     
     plt.show()
-    
+```   
 
 ## XYZ axis
 
+```python
     import numpy as np
     import matplotlib.pyplot as plt
     from mpl_toolkits.mplot3d import Axes3D
@@ -96,11 +98,12 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     # zlim
     ax.set_zlim(-2, 2)
     plt.show()
-    
+```
     
     
 ## Bar
 
+```python
     import matplotlib.pyplot as plt
     import numpy as np
     
@@ -133,10 +136,11 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.text(x, -y, '%.2f' % y, ha='center', va='top')
         
     plt.show()
-    
+```    
     
 ## Contours
 
+```python
     import matplotlib.pyplot as plt
     import numpy as np
     # the height function
@@ -158,11 +162,12 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.clabel(C, inline=True, fontsize=10)
     plt.xticks(())
     plt.yticks(())
-    
+```    
     
     
 ## Heatmap with colorbar
 
+```python
     import matplotlib.pyplot as plt
     import numpy as np
     
@@ -176,9 +181,11 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.xticks(())
     plt.yticks(())
     plt.show()
+```
 
 ## Scatter
 
+```python
     import matplotlib.pyplot as plt
     import numpy as np
     
@@ -192,7 +199,7 @@ After install matplotlib, I learnt some basic uses to visualize data. I found th
     plt.ylim(-1.5, 1.5)
     plt.yticks(())  # ignore yticks
     plt.show()
-    
+```    
     
     
     
