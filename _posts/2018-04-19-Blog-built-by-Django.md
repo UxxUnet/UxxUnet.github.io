@@ -41,7 +41,7 @@ Open your Command Prompt
 
 Create a project under the root file.
 
-		django-admin.py startproject mysite
+		django-admin.py startproject mysite # or django-admin startproject mysite
 		# View project's file structure
 		tree mysite
 

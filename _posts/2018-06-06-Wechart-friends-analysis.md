@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
 After importing data of friends from wachat, we can analyse them and visualize them in chars, bars or map.
 
-```
+```python
 #coding=utf-8
 
 import json
